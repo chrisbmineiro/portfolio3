@@ -1,0 +1,44 @@
+@media(max-width: 1270px){
+    .cab {
+        padding: 30px;
+    }
+    .home {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .home .infos {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .home .container-foto{
+        max-width: 60%;
+    }
+
+    .projetos .container-projetos {
+        padding: 0 30px;
+        gap: 35px;
+    }
+}
+
+@media(max-width: 425px){
+    .home .infos h1{
+        font-size: 22px;
+    }
+    .home .infos p{
+        font-size: 13px;
+    }
+    .projetos{
+        padding-top: 30px;
+    }
+    .projetos .titulo {
+        padding-top: 30px ;
+        font-size: 30px;
+    }
+    .projetos .container-projetos{
+        display: grid;
+        grid-template-columns: 100fr 100fr;
+        gap: 25px
+    }
+}

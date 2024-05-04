@@ -1,0 +1,1 @@
+Nesse projeto, eu pude entender mais a fundo como modelar com CSS e deixar totalmente otimizado para dispositivos mobiles ou tablets, deixando de forma muito mais atraente meu portfólio, também conectando classes do CSS ao JavaScript deixando mais dinamico e interativo.
