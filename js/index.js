@@ -32,3 +32,13 @@ function toggleLanguage() {
         textoEN.style.display = 'none';
     }
 }
+
+let screen = document.getElementById('screen')
+let body = document.querySelector('body')
+let header = document.getElementsByClassName('cab')
+
+screen.addEventListener('click', ()=> {
+    screen.classList.toggle('dark')
+    body.classList.toggle('dark')
+    header.classList.toggle('dark')
+}) 
