@@ -43,26 +43,74 @@ body{
 }
 
 .cab .menu .btn {
-    background-color: #fff;
+    background: transparent;
     border-radius: 15px;
-    padding: 10px;
+    padding: 6px;
     cursor: pointer;
+    width: 38px;
+    height: 38px;
 }
-
+    
 .cab .menu .btn:hover {
     background: linear-gradient(#e66465, #9198e5);
     color: aquamarine;
-    padding:10px ;
     border-radius: 15px;
     transition: 0.3s;
 }
+
+.screen {
+    width: 80px;
+    height: 38px;
+    background-color: #6d6d6d;
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s
+}
+
+.screen:hover {
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.screen .indicador{
+    width: 38px;
+    height: 38px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: 0.5s;
+}
+
+.screen.dark {
+    background-color: #a0a0a0;
+}
+
+.screen.dark .indicador {
+    background-color: white;
+    left: 42px;
+}
+
+/* .home .foto.sombra-interna img.dark {
+    background: linear-gradient(to left,#4f1c60, #2e5e54, rgb(98, 65, 70));
+    animation: gradient-animation 5s ease infinite;
+} */
+
+body.dark {
+    background: linear-gradient(#dfa6f2, #aeede1, pink) ;
+    color: #31435a;
+}
+
+/* header.dark {
+    color: #040203;
+} */
 
 .cab .menu li a{
     color: white ;
     font-size: 20px ;
     text-transform: capitalize;
     padding: 10px 20px;
-    transition: 0,3s;
 }
 .cab .menu li a:hover{
     background: linear-gradient(#e66465, #9198e5);
@@ -221,49 +269,6 @@ body{
 }
 
 /* .projetos .mostrar-projetos.menos {
-} */
-
-.screen {
-    width: 80px;
-    height: 38px;
-    background-color: #6d6d6d;
-    border-radius: 150px;
-    position: relative;
-    cursor: pointer;
-}
-
-.screen .indicador{
-    width: 38px;
-    height: 38px;
-    background-color: #000;
-    border-radius: 50%;
-    transform: scale(.9);
-    position: absolute;
-    left: 0;
-    transition: 0.5s;
-}
-
-.screen.dark {
-    background-color: #a0a0a0;
-}
-
-.screen.dark .indicador {
-    background-color: white;
-    left: 42px;
-}
-
-/* .home .foto.sombra-interna img.dark {
-    background: linear-gradient(to left,#4f1c60, #2e5e54, rgb(98, 65, 70));
-    animation: gradient-animation 5s ease infinite;
-} */
-
-body.dark {
-    background: linear-gradient(#dfa6f2, #aeede1, pink) ;
-    color: #31435a;
-}
-
-/* header.dark {
-    color: #040203;
 } */
 
 
