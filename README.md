@@ -1,4 +1,4 @@
-## Projeto Portfólio
+# Projeto Portfólio
 
 Neste projeto, mergulhei na modelagem de sites utilizando CSS e explorei o poder do @mediaquery para otimizar o site para diversos dispositivos, incluindo mobiles, tablets, desktops e até TVs. Essa abordagem deixou meu portfólio muito mais versátil e acessível.
 
