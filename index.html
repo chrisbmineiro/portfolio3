@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +8,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./src/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/estilos.css">
     <link rel="stylesheet" href="./src/css/resposive.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/projects.css">
 </head>
-
 <body>
     <header class="cab">
         <a href="#" class="logo">
@@ -34,43 +31,15 @@
                 </li>
                 <li>
                     <div class="screen" id="screen">
-                        <div class="indicador">
-
-                        </div>
+                        <div class="indicador"></div>
                     </div>
                 </li>
-                <li>
-                    <a href="#projetos">Meus Projetos</a>
-                </li>
+                <li><a href="#projetos" class="nav">Meus Projetos</a></li>
             </ul>
         </nav>
     </header>
     <section class="home">
         <div class="infos">
-            <div>
-                <h1>Olá, eu sou Christopher Barros</h1>
-                <p>Apaixonado por informática desde muito jovem, sempre tive curiosidade de entender como tudo funciona e o que tinha por trás dos jogos, aplicativos e sites.</p>
-                <p>Foi pensando nisso que me inscrevi em um curso técnico no Instituto Social Nossa Senhora de Fátima.</p>
-                <p>Um curso de informática associado ao SENAI, onde pude entender melhor como tudo acontecia, no próximo ano fiz no mesmo instituto um curso de inglês do básico ao intermediário e hoje estou cursando o 5° semestre de Ciência da Computação, onde estou aprendendo de tudo um pouco e acabei me interessando bastante pela parte de Web, pois sempre gostei do trabalho criativo e artístico através de códigos.</p>
-                <p>Por isso tenho buscado vagas de estágio e trainee para me aprimorar e me especializar em desenvolvimento de software.</p>
-                <ul class="redes-sociais">
-                    <li>
-                        <a href="https://www.linkedin.com/in/chrisbmineiro" title="minha pagina no linkedin" target="_blank">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://whatsapp.me/5511985154394" title="meu numero para contato" target="_blank">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/chrisbmineiro" title="meu github" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
         </div>
         <div class="container-foto">
             <div class="foto sombra-interna">
@@ -80,8 +49,8 @@
     </section>
     <section class="projetos" id="projetos">
         <h2 class="titulo">Meus Projetos</h2>
-
         <div class="container-projetos">
+            <!-- Projetos Aqui -->
             <div class="projeto ativo">
                 <a href="https://chrisbmineiro.github.io/portfolio3/" target="_blank">
                     <img src="./src/imagens/portfolio.png" alt="projeto 1">
@@ -122,6 +91,7 @@
                     </div>
                 </a>
             </div>
+            <!-- Mais projetos -->
             <div class="projeto">
                 <a href="#" target="_blank">
                     <img src="https://via.placeholder.com/515X700" alt="projeto 5">
@@ -163,15 +133,9 @@
                 </a>
             </div>
         </div>
-        </div>
         <button class="mostrar-projetos">Mostrar mais</button>
     </section>
-    <footer class="rod">
-    </footer>
-    <!--Parte de JS-->
-    <script src="./js/index.js">
-
-    </script>
+    <footer class="rod"></footer>
+    <script src="./js/index.js"></script>
 </body>
-
 </html>
