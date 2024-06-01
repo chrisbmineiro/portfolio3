@@ -2,7 +2,7 @@
     display: flex;
     min-height: calc(100vh -125px);
     align-items: center;
-    gap: 50px;
+    gap: 80px;
     justify-content: space-between;
 }
 .home .infos{
@@ -10,7 +10,7 @@
     flex-direction: column;
     gap: 17px;
     letter-spacing: 1px;
-    padding: 0px 15px;
+    padding-left:15px;
     max-width: 60%;
 }
 .home .infos h1, .home .infos p{
