@@ -8,12 +8,16 @@
         gap: 30px;
     }
     .home .infos {
-        max-width: 100%;
+        width: 100%;
         text-align: center;
         align-items: center;
     }
     .home .container-foto{
-        max-width: 60%;
+        max-width: 40%;
+    }
+    .home .infos .redes-sociais {
+        justify-content: center;
+        align-items: center;
     }
 
     .projetos .container-projetos {
